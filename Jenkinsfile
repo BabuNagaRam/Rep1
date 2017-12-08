@@ -5,6 +5,8 @@ properties([
     projectUrlStr: 'https://github.com/BabuNagaRam/Rep1.git/'],
     pipelineTriggers([githubPush()])])
 
+
+
 node
 {  
 stage 'integrate'
